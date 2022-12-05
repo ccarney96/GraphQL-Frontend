@@ -22,6 +22,7 @@ export const Home = () => {
 
     const handleChange = (event: ChangeEvent<unknown>, value: number) => {
         setPage(value);
+        console.log('test')
     };
 
     // query for all routines to get the count
